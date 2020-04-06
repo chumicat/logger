@@ -11,5 +11,11 @@
             "homepage": "https://github.com/chumicat",
             "role": "Developer"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-0": {
+            "Php\\Exam": ""
+        }
+    }
+
 }
