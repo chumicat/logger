@@ -4,10 +4,15 @@ use Psr\Log\LoggerInterface;
 
 class Logger implements LoggerInterface
 {
+    // initial sqlite3
     function __construct() {}
-    function debug(string $s) {}
-    function info(string $s) {}
-    function notice(string $s) {}
-    function critical(string $s) {}
-    function error(string $s) {}
+    // Every function doing the same thing!
+    // field 'id' will increase automatically
+    // insert function name to field 'level'
+    // insert message $msg to field 'message'
+    function debug(string $msg) {}
+    function info(string $msg) {}
+    function notice(string $msg) {}
+    function critical(string $msg) {}
+    function error(string $msg) {}
 }

@@ -3,9 +3,9 @@ namespace Psr\Log;
 
 interface LoggerInterface
 {
-    public function debug(string $s);
-    public function info(string $s);
-    public function notice(string $s);
-    public function critical(string $s);
-    public function error(string $s);
+    public function debug(string $msg);
+    public function info(string $msg);
+    public function notice(string $msg);
+    public function critical(string $msg);
+    public function error(string $msg);
 }
