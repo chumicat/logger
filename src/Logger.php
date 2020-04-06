@@ -1,8 +1,6 @@
 <?php
 namespace Php\Exam;
 
-
-
 class Logger implements LoggerInterface
 {
     function __construct() {}

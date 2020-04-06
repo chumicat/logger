@@ -1,5 +1,5 @@
 <?php
-namespace Php\Exam;
+namespace Psr\Log;
 
 interface LoggerInterface
 {
