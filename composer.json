@@ -14,7 +14,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "Php\\Exam\\": "src"
+            "Php\\Exam\\": "src",
+            "Psr\\Log\\": "src"
         }
     }
 
