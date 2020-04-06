@@ -1,7 +1,16 @@
 <?php
 namespace Php\Exam;
 
-class Logger {
+
+
+class Logger implements LoggerInterface
+{
+    function __construct() {}
+    function debug(string $s) {}
+    function info(string $s) {}
+    function notice(string $s) {}
+    function critical(string $s) {}
+    function error(string $s) {}
     // function show($pdo, $keyword = null)
     // {
     //     $stmt;
