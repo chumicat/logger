@@ -1,11 +1,15 @@
 {
-    "repositories": [
+    "name": "chumicat/logger",
+    "type": "library",
+    "description": "For exam",
+    "keywords": ["exam","104"],
+    "homepage": "https://github.com/chumicat",
+    "authors": [
         {
-            "type": "vcs",
-            "url": "https://github.com/chumicat/logger"
+            "name": "Chumicat",
+            "email": "russell57260620@gmail.com",
+            "homepage": "https://github.com/chumicat",
+            "role": "Developer"
         }
-    ],
-    "require": {
-        "chumicat/logger": "dev-master"
-    }
+    ]
 }
