@@ -1,0 +1,11 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/chumicat/logger"
+        }
+    ],
+    "require": {
+        "chumicat/logger": "dev-master"
+    }
+}
