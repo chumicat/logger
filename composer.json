@@ -17,6 +17,10 @@
             "Php\\Exam\\": "src",
             "Psr\\Log\\": "src"
         }
+    },
+    "require": {
+        "php": ">=7",
+        "Psr/Log": "^1.1"
     }
 
 }
