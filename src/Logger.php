@@ -38,9 +38,9 @@ class Logger implements LoggerInterface
         $stmt->execute();
     }
 
-    public function debug(string $msg) {$this->insert('debug', $msg);}
-    public function info(string $msg) {$this->insert('info', $msg);}
-    public function notice(string $msg) {$this->insert('notice', $msg);}
-    public function critical(string $msg) {$this->insert('critical', $msg);}
-    public function error(string $msg) {$this->insert('error', $msg);}
+    public function debug($message, array $context = []) {$this->insert('debug', $message);}
+    public function info($message, array $context = []) {$this->insert('info', $message);}
+    public function notice($message, array $context = []) {$this->insert('notice', $message);}
+    public function critical($message, array $context = []) {$this->insert('critical', $message);}
+    public function error($message, array $context = []) {$this->insert('error', $message);}
 }
