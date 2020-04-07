@@ -46,5 +46,5 @@ class Logger implements LoggerInterface
     public function notice($message, array $context = []) {$this->insert('notice', $message);}
     public function info($message, array $context = []) {$this->insert('info', $message);}
     public function debug($message, array $context = []) {$this->insert('debug', $message);}
-    public function log($message, array $context = []) {$this->insert('emergency', $message);}
+    public function log($level, $message, array $context = []) {}
 }
