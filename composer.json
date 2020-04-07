@@ -14,8 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Php\\Exam\\": "src",
-            "Psr\\Log\\": "src"
+            "Php\\Exam\\": "src"
         }
     },
     "require": {
